@@ -18,6 +18,7 @@ int printf_int(va_list args);
 int printf_deci(va_list args);
 int print_binary(va_list args);
 int print_octal(va_list val);
+int print_hex(va_list args);
 
 
 
