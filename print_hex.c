@@ -5,13 +5,14 @@
  * @args: arguments to be parsed
  * Return: count.
  */
+
 int print_hex(va_list args)
 {
-        char *s = "(nil)";
+	char *s = "(nil)";
 	void *p;
 	long int x;
 	int i;
-        int y;
+	int y;
 
 	p = va_arg(args, void*);
 	if (p == NULL)

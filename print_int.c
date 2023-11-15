@@ -8,10 +8,10 @@
 int printf_int(va_list args)
 {
 	int n = va_arg(args, int);
-	int num, last = n & 10, digit exp =1;
+	int num, last = n & 10, digit exp = 1;
 	int i = 1;
 
-	n =n / 10;
+	n = n / 10;
 	num = n;
 
 	if (last < 0)
@@ -25,9 +25,9 @@ int printf_int(va_list args)
 	if (num > 0)
 	{
 		while (num / 10 != 0)
-		{ 
+		{
 			exp = exp * 10;
-		 	num = num / 10;	
+			num = num / 10;
 		}
 		num = n;
 		while (exp > 0)

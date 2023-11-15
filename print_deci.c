@@ -6,10 +6,10 @@
  * Return: number of integers printed
  */
 
-int printf_deci (va_list args)
+int printf_deci(va_list args)
 {
 	int n = va_arg(args, int);
-	int num, last = n 
+	int num, last = n
 	int i = 1;
 
 	n = n / 10;
