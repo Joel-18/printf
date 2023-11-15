@@ -20,6 +20,7 @@ int print_binary(va_list args);
 int print_unsigned(va_list args);
 int print_octal(va_list val);
 int print_hex(va_list args);
+int print_rot13(va_list args);
 
 
 
