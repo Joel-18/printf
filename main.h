@@ -13,7 +13,7 @@ int _printf(const char *format, ...);
 
 int printf_char(va_list args);
 int printf_string(va_list args);
-int printf_%(void);
+int printf_percentage(void);
 int printf_int(va_list args);
 int printf_deci(va_list args);
 
