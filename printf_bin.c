@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_bin - prints binary number.
+ * print_binary - prints the  binary number.
  * @args: parameter.
  * Return: integer
  */
