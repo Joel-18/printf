@@ -9,12 +9,12 @@
 int _printf(const char *format, ...)
 {
 	convert p[] = {
-	{"%s", print_s}, {"%c", print_c},
-	{"%%", print_37},
-	{"%i", print_i}, {"%d", print_d}, {"%r", print_revs},
-	{"%R", print_rot13}, {"%b", print_bin},
+	{"%s", printf_string}, {"%c", printf_char},
+	{"%%", printf_percentage},
+	{"%i", printf_int}, {"%d", printf_deci}, {"%r", print_revs},
+	{"%R", print_rot13}, {"%b", print_binary},
 	{"%u", print_unsigned},
-	{"%o", print_oct}, {"%x", print_hex}, {"%X", print_HEX},
+	{"%o", print_octal}, {"%x", print_hex}, {"%X", print_HEX},
 	{"%S", print_exc_string}, {"%p", print_pointer}
 	};
 

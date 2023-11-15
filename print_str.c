@@ -15,7 +15,7 @@ int printf_string(va_list args)
 	if (str == NULL)
 	{
 		str = "(null)";
-		length = _strnlen(str);
+		length = _strlen(str);
 		for (i = 0 ; i < length ; i++)
 			_putchar(str[i]);
 		return (length);

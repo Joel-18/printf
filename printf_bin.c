@@ -5,12 +5,13 @@
  * @args: parameter.
  * Return: integer
  */
+
 int print_binary(va_list args)
 {
 	int flag = 0;
 	int con = 0;
 	int i, a = 1, b;
-	unsigned int num = va_args(args, unsigned int);
+	unsigned int num = va_arg(args, unsigned int);
 	unsigned int p;
 
 	for (i = 0; i < 32; i++)
