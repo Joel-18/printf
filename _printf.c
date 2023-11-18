@@ -10,8 +10,8 @@ int _printf(const char *format, ...)
 {
 	convert p[] = {
 	{"%s", print_string}, {"%c", print_char},
-	{"%%", print_percentage},
-	{"%i", print_int}, {"%d", print_deci}, {"%r", print_revs},
+	{"%%", print_percent},
+	{"%i", print_int}, {"%d", print_deci}, {"%r", print_rev_str},
 	{"%R", print_rot13}, {"%b", print_binary},
 	{"%u", print_unsigned},
 	{"%o", print_octal}, {"%x", print_hex}, {"%X", print_HEX},
