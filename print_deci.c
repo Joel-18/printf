@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * printf_deci - prints decimals
+ * print_deci - prints decimals
  * @args: input arguments to be printed
  * Return: number of integers printed
  */
