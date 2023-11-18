@@ -9,9 +9,9 @@
 int _printf(const char *format, ...)
 {
 	convert p[] = {
-	{"%s", printf_string}, {"%c", printf_char},
-	{"%%", printf_percentage},
-	{"%i", printf_int}, {"%d", printf_deci}, {"%r", print_revs},
+	{"%s", print_string}, {"%c", print_char},
+	{"%%", print_percentage},
+	{"%i", print_int}, {"%d", print_deci}, {"%r", print_revs},
 	{"%R", print_rot13}, {"%b", print_binary},
 	{"%u", print_unsigned},
 	{"%o", print_octal}, {"%x", print_hex}, {"%X", print_HEX},

@@ -6,11 +6,11 @@
  * Return: number of integers printed
  */
 
-int printf_deci(va_list args)
+int print_deci(va_list args)
 {
 	int n = va_arg(args, int);
 	int num, exp, last = n;
-	int i = 1;
+	int i = 1, digit;
 
 	n = n / 10;
 	num = n;
@@ -36,4 +36,5 @@ int printf_deci(va_list args)
 			_putchar(digit + '0');
 		}
 	}
+	return (i);
 }
